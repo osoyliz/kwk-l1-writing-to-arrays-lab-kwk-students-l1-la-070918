@@ -22,4 +22,4 @@ def add_colors(rainbow_colors)
    rainbow_colors.push "green"
    rainbow_colors.push "blue"
 end
-rainbow_colors
+add_colors
