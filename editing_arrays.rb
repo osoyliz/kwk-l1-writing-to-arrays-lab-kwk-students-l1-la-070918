@@ -23,3 +23,4 @@ def add_colors(rainbow_colors)
    rainbow_colors << "blue"
 end
 add_colors(rainbow_colors)
+puts rainbow_colors
