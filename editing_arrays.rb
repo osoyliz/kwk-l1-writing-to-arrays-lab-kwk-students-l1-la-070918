@@ -19,7 +19,7 @@ rainbow_colors = [
   "light_yellow"
 ]
 def add_colors
-    puts rainbow_colors[3] = "green"
-    puts rainbow_colors[4] = "blue"
+    puts rainbow_colors.push "green"
+    puts rainbow_colors.push "blue"
 end
 add_colors
