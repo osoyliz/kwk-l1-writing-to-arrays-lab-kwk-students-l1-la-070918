@@ -15,6 +15,5 @@ change_rainbow_colors
 
 def add_colors
     puts rainbow_colors << "green", "blue"
-end
-end
+  end
 add_colors
