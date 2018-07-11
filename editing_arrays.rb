@@ -13,14 +13,14 @@ def change_rainbow_colors
 end
 change_rainbow_colors
 
-rainbow_colors = [
+rainbow = [
   "red",
   "light_red",
   "light_yellow"
 ]
-def add_colors(rainbow_colors)
-   rainbow_colors << "green"
-   rainbow_colors << "blue"
+def add_colors(rainbow)
+   rainbow << "green"
+   rainbow << "blue"
 end
-add_colors(rainbow_colors)
-puts rainbow_colors
+add_colors(rainbow)
+puts rainbow
